@@ -1,9 +1,8 @@
 # Columbia Engineering FinTech Bootcamp 2023-06
 
-> Project: Module 6 PyViz Proptech challenge assignment
+> Project: Module 10 Unsupervised Learning Challenge
 
-> Purpose: In this activity, we used our newfound Python PyViz skills to create a Python script in Jupyter Notebook for the purpose of developing the following:
->1. One-click service for people to buy and rent properties in San Francisco, with the potential to expand the product to other U.S. markets.
+> Purpose: In this activity, we used our newfound unsupervised learning skills to cluster cryptocurrencies by performance during different time periods, seeking to determine factors other than traditional return and volatility metrics to explain cryptocurrency performance. 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -19,54 +18,50 @@
 <!-- * [License](#license) -->
 
 ## General Information
-- Our project was designed to use PyViz libraries, including hvplot and GeoViews, to develop a one-click buy and rent proptech tool, based on the San Francisco housing market.
+- Our project was designed to use Scikit-learn libraries, including sklearn preprocessing, cluster, decomposition, and algorithms KMeans and PCA to analyze factors, or features, in the cryptocurrency market.
 
 ## Technologies Used
 - Python Version 3.10.12
-- Jupyter Notebook within the VS Code IDE for both Jupyter Notebook 'san_francisco_housing.ipynb' and a README markdown file.
+- Jupyter Notebook within the VS Code IDE for both Jupyter Notebook 'crypto_investments.ipynb' and a README markdown file.
 
 ## Features
 
 ## Screenshots
-##### Sample project screenshots:
+##### `Sample project screenshot depicts comparison of KMeans clustering models for cryptocurrency scaled market data before and after feature reduction using Principal Component Analysis (PCA):`
 
-![A screenshot depicts san fran housing units by year.](Images/plot1.png)
-
-![A screenshot depicts san fran overall housing trends.](Images/plot2.png)
-
-![A screenshot depicts san fran neighborhood housing trends.](Images/plot3.png)
-
-![A screenshot depicts san fran geospatial housing metrics map.](Images/plot4.png)
+![A screenshot depicts comparison of KMeans clustering models for cryptocurrency scaled market data before and after feature reduction using Principal Component Analysis (PCA).](Images/final_analysis_cluster_comparisons.png)
 
 ## Setup
 - GitHub Repository
-    - name: 'pyviz-challenge'
+    - name: 'unsupervised-learning-challenge'
     - location: uploaded to Bootcamp homework submission online portal and available publicly at:
-        - [GitHub Repository](git@github.com:boz-tcm/pyviz-challenge.git)
+        - [GitHub Repository](git@github.com:boz-tcm/unsupervised-learning-challenge.git)
 - Python Standard Library (Version 3.10.12)
-- Python Modules:
+- Python Libraries and Modules:
     - pandas
     - pathlib and Path function
     - hvplot.pandas
-    - holoviews
+    - sklearn.preprocessing and StandardScaler object
+    - sklearn.cluster and KMeans object
+    - sklearn.decomposition and PCA object
 - Jupyter Notebook(s):
-    - name: 'san_francisco_housing.ipynb'
-    - location: 'pyviz-challenge/'
+    - name: 'crypto_investments.ipynb'
+    - location: 'unsupervised-learning-challenge/'
 - Data
-    - location: 'pyviz-challenge/Instructions/Starter_Code/Resources/'
+    - location: 'unsupervised-learning-challenge/Resources/'
 - Images
-    - location: 'pyviz-challenge/Images'
+    - location: 'unsupervised-learning-challenge/Images'
 
 ## Usage
-The script is run in the Jupyter Notebook 'san_francisco_housing.ipynb', within the 'pyviz-challenge' directory, executed using the Notebook environment's 'Run All Cells...' command.
+The script is run in the Jupyter Notebook 'crypto_investments.ipynb', within the 'unsupervised-learning-challenge' directory, executed using the Notebook environment's 'Run All Cells...' command.
 
 ## Project Status
 Project is: _complete
 
 ## Room for Improvement
-Room for improvement:
+Room for improvement:   _
 
-To do:
+To do:  _
 
 ## Acknowledgements
 
